@@ -1,0 +1,36 @@
+html, body {
+  height: 99%;
+}
+
+body {
+  font-family: 'Signika Negative';
+  font-weight: 400;
+  background-color: #211e22;
+  color: #f1f1f1;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+main a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 22px;
+  padding-right: 15px;
+}
+main a:hover {
+  text-decoration: underline;
+}
+main a:last-child {
+  padding-right: 0px;
+}
+
+.item {
+  height: 300px;  
+}
